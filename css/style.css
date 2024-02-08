@@ -35,7 +35,7 @@ body.scrollfix{
     display: flex;
     gap: 5rem;
     font-size: 2rem;
-    color: #e79797;
+    color: d25e5e;
 }
 .header-menu li{
     position: relative;
