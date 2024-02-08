@@ -1,0 +1,72 @@
+@charset "utf-8";
+@font-face  {
+    font-family: 'WarhavenB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/WarhavenB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KBO-Dia-Gothic_bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ChosunBg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunBg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{margin: 0; padding: 0; box-sizing: border-box; font : inherit; color: inherit;}
+a{text-decoration: none;}
+ul,ol{list-style: none;}
+img{max-width: 100%;}
+html{font-size: 10px;
+scroll-behavior: smooth;}
+body{
+    font-size: 1.6rem; color: #222; font-family: 'SCoreDream'; font-weight: 400;
+    /* overflow-x: hidden; */
+}
+/* custom  */
+.inner{
+    max-width: 1340px; padding: 0 20px; width: 100%; position: relative; margin: 0 auto;
+}
+.title{
+    text-align: center;
+    position: relative;
+    font-size: 5rem;
+    font-weight: 800;
+    margin-bottom: 10rem;
+    letter-spacing: 10px;
+}
+.title h2{
+    font-family: 'Caveat','cursive';
+    font-size: 150%;
+    display: inline-block;
+    position: relative;
+    color: #f6fcff;
+    z-index: 10;
+}
+.title h2::before{
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 5px;
+    background-color: #8b1414;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -10px;
+}
+@media screen and (max-width: 1024px){
+    html{font-size: 9px;}
+}
+@media screen and (max-width: 768px){
+    html{font-size: 8px;}
+}

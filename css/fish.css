@@ -1,0 +1,293 @@
+:root {
+    --length: calc(100vw + 200px);
+  }
+  
+  body {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+  
+  .bubble {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+    box-shadow: inset -5px -5px 15px 2px rgba(7, 174, 171, .2);
+  }
+  
+  .bubble:nth-child(1) {
+    height: 40px;
+    width: 40px;
+    left: 5%;
+    bottom: -100px;
+    animation: up 30s 0s linear infinite;
+  }
+  
+  .bubble:nth-child(2) {
+    height: 30px;
+    width: 30px;
+    left: 10%;
+    bottom: -100px;
+    animation: up 20s 12s linear infinite;
+  }
+  
+  .bubble:nth-child(3) {
+    height: 20px;
+    width: 20px;
+    bottom: -100px;
+    left: 20%;
+    animation: up 20s linear 0s infinite;
+  }
+  
+  .bubble:nth-child(4) {
+    height: 30px;
+    width: 30px;
+    bottom: -100px;
+    left: 30%;
+    animation: up 30s linear 16s infinite;
+  }
+  
+  .bubble:nth-child(5) {
+    height: 25px;
+    width: 25px;
+    bottom: -100px;
+    left: 40%;
+    animation: up 20s linear 8s infinite;
+  }
+  
+  .bubble:nth-child(6) {
+    height: 30px;
+    width: 30px;
+    bottom: -100px;
+    left: 50%;
+    animation: up 25s linear 20s infinite;
+  }
+  
+  .bubble:nth-child(7) {
+    height: 25px;
+    width: 25px;
+    bottom: -100px;
+    left: 60%;
+    animation: up 20s linear 12s infinite;
+  }
+  
+  .bubble:nth-child(8) {
+    height: 35px;
+    width: 35px;
+    bottom: -100px;
+    left: 70%;
+    animation: up 20s linear 14s infinite;
+  }
+  
+  .bubble:nth-child(9) {
+    height: 25px;
+    width: 25px;
+    bottom: -100px;
+    left: 80%;
+    animation: up 20s linear 16s infinite;
+  }
+  
+  .bubble:nth-child(10) {
+    height: 35px;
+    width: 35px;
+    bottom: -100px;
+    left: 90%;
+    animation: up 20s linear 0s infinite;
+  }
+  
+  .bubble:nth-child(11) {
+    height: 40px;
+    width: 40px;
+    left: 15%;
+    bottom: -100px;
+    animation: up 20s linear 20s infinite;
+  }
+  
+  .bubble:nth-child(12) {
+    height: 30px;
+    width: 30px;
+    bottom: -100px;
+    left: -25%;
+    animation: up 20s linear 0s infinite;
+  }
+  
+  .bubble:nth-child(13) {
+    height: 30px;
+    width: 30px;
+    bottom: -100px;
+    left: 35%;
+    animation: up 24s linear 3s infinite;
+  }
+  
+  .bubble:nth-child(14) {
+    height: 40px;
+    width: 40px;
+    bottom: -100px;
+    left: 45%;
+    animation: up 30s linear 5s infinite;
+  }
+  
+  .bubble:nth-child(15) {
+    height: 35px;
+    width: 35px;
+    bottom: -100px;
+    left: 55%;
+    animation: up 35s linear 7s infinite;
+  }
+  
+  .bubble:nth-child(16) {
+    height: 40px;
+    width: 40px;
+    bottom: -100px;
+    left: 65%;
+    animation: up 15s linear 9s infinite;
+  }
+  
+  .bubble:nth-child(17) {
+    height: 35px;
+    width: 35px;
+    bottom: -100px;
+    left: 75%;
+    animation: up 20s linear 11s infinite;
+  }
+  
+  .bubble:nth-child(18) {
+    height: 25px;
+    width: 25px;
+    bottom: -100px;
+    left: 85%;
+    animation: up 25s linear 3s infinite;
+  }
+  
+  .bubble:nth-child(19) {
+    height: 25px;
+    width: 25px;
+    bottom: -100px;
+    left: 5%;
+    animation: up 20s linear 15s infinite;
+  }
+  
+  .bubble:nth-child(20) {
+    height: 20px;
+    width: 20px;
+    bottom: -100px;
+    left: 15%;
+    animation: up 25s linear 0s infinite;
+  }
+  
+  @keyframes up {
+    0% {
+      transform: translateY(0);
+      opacity: 0%;
+  
+    }
+    10% {
+      opacity: 100%;
+  
+    }
+    100% {
+      transform: translateY(calc(-100vh - 100px));
+      opacity: 100%;
+  
+    }
+  }
+  
+  .fish {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .fish1 {
+    font-size: 6rem;
+    top: 10%;
+    left: calc(100vw + 100px);
+    animation: swim 25s linear 0s infinite;
+  }
+  
+  .fish2 {
+    font-size: 4rem;
+    top: 40%;
+    left: calc(100vw + 100px);
+    animation: swim 30s linear 1s infinite;
+  }
+  
+  .fish3 {
+    font-size: 5rem;
+    top: 80%;
+    left: calc(100vw + 200px);
+    animation: swim 40s linear 10s infinite;
+  }
+  
+  .fish4 {
+    font-size: 6rem;
+    top: 70%;
+    left: calc(100vw + 200px);
+    animation: swim 32s linear 5s infinite;
+  }
+  
+  .fish5 {
+    font-size: 5rem;
+    top: 50%;
+    left: -150px;
+    animation: swimReverse 22s linear 0s infinite;
+  }
+  
+  .fish6 {
+    font-size: 3rem;
+    top: 60%;
+    margin-left: -150px;
+    animation: swimReverse 20s linear 5s infinite;
+  }
+  
+  .fish7 {
+    font-size: 4rem;
+    top: 70%;
+    margin-left: -150px;
+    animation: swimReverse 25s linear 1s infinite;
+  }
+  
+  .fish8 {
+    font-size: 3.5rem;
+    top: 15%;
+    left: calc(100vw + 200px);
+    animation: swim 18s linear 16s infinite;
+  }
+  
+  .fish9 {
+    font-size: 4rem;
+    top: 25%;
+    left: calc(100vw + 200px);
+    animation: swim 19s linear 11s infinite;
+  }
+  
+  .fish10 {
+    font-size: 2rem;
+    top: 30%;
+    left: calc(100vw + 200px);
+    animation: swim 20s linear 14s infinite;
+  }
+  
+  @keyframes swimReverse {
+    0% {
+      transform: translateX(0px) scaleX(-1);
+    }
+  
+    100% {
+      transform: translateX(calc(100vw + 300px)) scaleX(-1);
+    }
+  }
+  
+  @keyframes swim {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(calc(-100vw - 300px));
+    }
+  }
+  

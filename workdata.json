@@ -1,0 +1,94 @@
+{
+    "work" : [
+        {
+            "catename" : "ALL"
+        },
+        {
+            "catename" : "Motion",
+            "list":[
+                {   
+                    "videoid": "aK8WjIGtG1w",
+                    "alt":"VIDEO THUMB",
+                    "title":"흑백영화 타이포그래피",
+                    "period":"1month",
+                    "afterEffect" : "used",
+                    "premiere" : "used"
+                },
+                {
+                    "videoid": "SyC1TAlTbiY",
+                    "alt":"VIDEO THUMB",
+                    "title":"모션그래픽2",
+                    "period":"1week",
+                    "photoshop" : "used",
+                    "premiere" : "used",
+                    "illust" : "used"
+                },
+                {
+                    "videoid": "xWUeEfP70f8",
+                    "alt":"VIDEO THUMB",
+                    "title":"모션그래픽3",
+                    "period":"1week",
+                    "html" : "used",
+                    "css" : "used",
+                    "git" : "used"
+                }
+            ]
+        },
+        {
+            "catename" : "WEB",
+            "list":[
+                {
+                    "videoid": "xWUeEfP70f8",
+                    "alt":"WEB THUMB",
+                    "title":"웹디자인1",
+                    "period":"1week"
+                },
+                {
+                    "videoid": "SyC1TAlTbiY",
+                    "alt":"WEB THUMB",
+                    "title":"웹디자인2",
+                    "period":"1week"
+                },
+                {
+                    "videoid": "u9eehcAHhi8",
+                    "alt":"WEB THUMB",
+                    "title":"웹디자인3"
+                },
+                {
+                    "videoid": "SyC1TAlTbiY",
+                    "alt":"WEB THUMB",
+                    "title":"웹디자인4",
+                    "period":"1week"
+                }
+            ]
+        },
+        {
+            "catename" : "DESIGN",
+            "list":[
+                {
+                    "imgurl": "design01.jpg",
+                    "alt":"DESIGN THUMB",
+                    "title":"디자인",
+                    "period":"1week"
+                },
+                {
+                    "imgurl": "design01.jpg",
+                    "alt":"DESIGN THUMB",
+                    "title":"디자인",
+                    "period":"1week"
+                },
+                {
+                    "imgurl": "design01.jpg",
+                    "alt":"DESIGN THUMB",
+                    "title":"디자인"
+                },
+                {
+                    "imgurl": "design01.jpg",
+                    "alt":"DESIGN THUMB",
+                    "title":"디자인",
+                    "period":"1week"
+                }
+            ]
+        }
+    ]
+}
